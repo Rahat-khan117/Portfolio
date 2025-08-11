@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+:root {
+  --first-hue: 260;
+  --second-hue: 216;
+  --first-color: hsl(var(--first-hue), 91%, 64%);
+  --first-color-dark: hsl(var(--first-hue), 62%, 20%);
+  --title-color: hsl(var(--second-hue), 8%, 85%);
+  --text-color: hsl(var(--second-hue), 8%, 75%);
+  --body-color: hsl(var(--second-hue), 28%, 12%);
+  --container-color: hsl(var(--second-hue), 28%, 15%);
+  --white-color: hsl(var(--second-hue), 8%, 100%);
+
+  --first-gradient: linear-gradient(
+    150deg,
+    var(--first-color) 0%,
+    var(--white-color) 100%
+  );
+  --second-gradient: linear-gradient(
+    260deg,
+    var(--first-color-dark) 0%,
+    var(--first-color) 100%
+  );
+}
