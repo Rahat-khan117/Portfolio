@@ -18,8 +18,14 @@ const Home = () => {
            hover:bg-linear-to-r hover:from-[#d288ef] hover:to-[#b30af5] ">My works</button>
         </div>
 
-        <div>
+        <div className="flex items-center gap-6 pr-2">
             <img className="mt-4 [border-radius:46%_54%_83%_17%/65%_46%_54%_35%] bg-linear-to-r from-[#b30af5] to-[#41254d] " src="https://i.ibb.co.com/4RMyc6f4/my-photo.png" />
+            <div className="flex flex-col gap-3 text-xl">
+                <a target="blank" href="https://github.com/Rahat-khan117"><i className="fi fi-brands-github "></i></a>
+            <a target="blank" href="https://www.facebook.com/asife.khan.9480/"><i className="fi fi-brands-facebook text-blue-500"></i></a>
+            <a target="blank" href="#"><i className="fi fi-brands-linkedin text-blue-500"></i></a>
+            
+            </div>
         </div>
       </div>
 
