@@ -1,5 +1,6 @@
 import React from "react";
 import About from "./About";
+import Skills from "./Skills";
 
 const Home = () => {
   return (
@@ -16,7 +17,7 @@ const Home = () => {
           <p className="xl:text-5xl lg:text-3xl md:text-3xl text-3xl font-bold mt-3">I am a Web Developer</p>
           <p className="mt-3"> I'm a professional MERN stake web developer. I can develop Visually <br /> appealing website with React js and Typescript also. I am  specialized in front <br /> end development for Visually eye appeal Implementation.</p>
           <button className="btn w-fit mt-4 bg-linear-to-r from-[#b30af5] to-[#d288ef] text-xl
-           hover:bg-linear-to-r hover:from-[#d288ef] hover:to-[#b30af5] ">My works</button>
+           hover:bg-linear-to-r hover:from-[#d288ef] hover:to-[#b30af5] text-white">My works</button>
         </div>
 
         <div className="flex items-center gap-6 pr-2">
@@ -32,11 +33,15 @@ const Home = () => {
 
 {/*  for about section */}
 
-     <div className="mt-32">
+     <div className="mt-28">
         <About></About>
      </div>
+{/* for skills section */}
 
-
+    <div className="mt-24">
+        <Skills></Skills>
+    </div>
+     
 
     </div>
   );
