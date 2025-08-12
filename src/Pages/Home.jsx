@@ -1,4 +1,5 @@
 import React from "react";
+import About from "./About";
 
 const Home = () => {
   return (
@@ -7,7 +8,7 @@ const Home = () => {
            Hello with custom colors!
             </div> */}
 
-
+  {/* for home components */}
 
       <div className="flex md:flex-row md:justify-between gap-16 flex-col-reverse items-center">
         <div className="flex flex-col">
@@ -29,6 +30,11 @@ const Home = () => {
         </div>
       </div>
 
+{/*  for about section */}
+
+     <div className="mt-32">
+        <About></About>
+     </div>
 
 
 

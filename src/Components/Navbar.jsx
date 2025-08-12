@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
     return (
-        <div className={`h-[70px] w-[100vw] flex items-center px-10 lg:px-20 sm:px-12 md:px-16   shadow-3xl ${ (theme === "dark") ? "bg-[#1d232a]" : "bg-white" }`}>
+        <div className={`h-[70px] w-[100vw] flex items-center max-w-screen-xl mx-auto px-10 lg:px-20 sm:px-12 md:px-16   shadow-3xl ${ (theme === "dark") ? "bg-[#1d232a]" : "bg-white" }`}>
              <div className='w-full flex justify-between'>
 
                 <div className='flex items-center'>
