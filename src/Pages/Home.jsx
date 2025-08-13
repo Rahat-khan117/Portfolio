@@ -1,8 +1,11 @@
 import React from "react";
 import About from "./About";
 import Skills from "./Skills";
+import Projects from "./Projects";
+import { useLoaderData } from "react-router";
 
 const Home = () => {
+    const projects = useLoaderData();
   return (
     <div className="mt-7 ">
       {/* <div className="bg-[image:var(--first-gradient)]  p-6 rounded-lg">
@@ -41,7 +44,11 @@ const Home = () => {
     <div className="mt-24">
         <Skills></Skills>
     </div>
-     
+
+    {/* for project section */}
+    <div className="mt-24">
+        <Projects projects={projects}></Projects>
+    </div>
 
     </div>
   );

@@ -1,0 +1,32 @@
+[
+  {
+    "id" : 1 ,
+    "name": "Health Project",
+    "image": "https://i.ibb.co.com/Kz85Cg9M/Project-health.png",
+    "desc": "This is a platform where you can find doctors. You can fix consultation with and also include the consultation fee with date and time",
+    "liveUrl": "https://health-project-drab.vercel.app/",
+    "github": "https://github.com/Rahat-khan117/Health-Project",
+    "challenges": "Managing real-time updates and optimizing database queries.",
+    "future": "Add mobile app support and AI-based task suggestions."
+  },
+  {
+    "id" : 2 ,
+    "name": "QueryCart",
+    "image": "https://i.ibb.co.com/tp7zMrjQ/Screenshot-2025-08-08-190816.png",
+    "desc": "It is a Product Recommendation platform for recommending products . Where , Users can Add/update/Delete their own Query about a product in The System Users can view other queries for alternative products on the Websites and see the Details and other recommendations also. Users can Add recommendations also for certain products.",
+    "liveUrl": "https://assignment-112-db256.web.app/",
+    "github": "https://github.com/Rahat-khan117/QueryCart",
+    "challenges": "Integrating secure payment gateways and managing user sessions.",
+    "future": "Introduce personalized product recommendations and a seller dashboard."
+  },
+  {
+    "id" : 3 ,
+    "name": "MealNest",
+    "image": "https://i.ibb.co.com/B2yLzcFt/Screenshot-2025-08-09-183159.png",
+    "desc": "HobbyHub is a platform where people can discover and join local hobby-based groups (e.g., book clubs, hiking crews, painting circles) or create their own. It encourages social engagement through shared interests, helping people build communities around their passions.",
+    "liveUrl": "https://assignment-10-273ac.web.app/",
+    "github": "https://github.com/Rahat-khan117/HobbyPhy",
+    "challenges": "Building a smooth chart visualization system and syncing data across devices.",
+    "future": "Add wearable device integration and AI-powered workout plans."
+  }
+]
