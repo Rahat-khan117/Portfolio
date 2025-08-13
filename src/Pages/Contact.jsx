@@ -3,6 +3,7 @@ import React from "react";
 const Contact = () => {
   return (
     <div className="">
+        <p className="text-4xl font-bold text-center mb-12">Contact Me</p>
         <p className="sm:text-4xl text-3xl font-bold md:hidden block mb-8">
             Lets's Talk about <br /> your Project
           </p>

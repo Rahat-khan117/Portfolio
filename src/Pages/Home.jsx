@@ -1,4 +1,4 @@
-import React from "react";
+
 import About from "./About";
 import Skills from "./Skills";
 import Projects from "./Projects";
@@ -9,6 +9,9 @@ import Qualification from "./Qualification";
 const Home = () => {
     
     const projects = useLoaderData();
+
+  
+
   return (
     <div className={`mt-7`}>
       {/* <div className="bg-[image:var(--first-gradient)]  p-6 rounded-lg">
@@ -39,29 +42,29 @@ const Home = () => {
 
 {/*  for about section */}
 
-     <div className="mt-28">
+     <div id="about" className="mt-28">
         <About></About>
      </div>
 {/* for skills section */}
 
-    <div className="mt-24">
+    <div id="skills" className="mt-24">
         <Skills></Skills>
     </div>
 
     {/* for project section */}
-    <div className="mt-24">
+    <div id="projects" className="mt-24">
         <Projects projects={projects} ></Projects>
     </div>
 
     {/* Qualification */}
 
-    <div className="mt-14">
+    <div id="qualification" className="mt-14">
         <Qualification></Qualification>
     </div>
 
     {/* for contact page */}
 
-    <div className="mt-24">
+    <div id="contact" className="mt-14">
         <Contact></Contact>
     </div>
 
