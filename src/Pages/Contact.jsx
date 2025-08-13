@@ -6,9 +6,9 @@ const Contact = () => {
         <p className="sm:text-4xl text-3xl font-bold md:hidden block mb-8">
             Lets's Talk about <br /> your Project
           </p>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-16 gap-4">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 md:gap-8 gap-4">
         <div className="md:order-1 order-2">
-          <p className="sm:text-5xl text-3xl font-bold hidden md:block">
+          <p className="sm:text-4xl text-3xl font-bold hidden md:block">
             Lets's Talk about <br /> your Project
           </p>
           <div className="mt-14 space-y-9">
