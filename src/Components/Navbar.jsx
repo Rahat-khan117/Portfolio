@@ -24,7 +24,7 @@ const Navbar = () => {
                     <p className='text-xl font-semibold hidden sm:block cursor-pointer'>About</p>
                     <p className='text-xl font-semibold hidden sm:block cursor-pointer'>Skills</p>
                     <p className='text-xl font-semibold hidden lg:block cursor-pointer'>Services</p>
-                    <p className='text-xl font-semibold hidden lg:block cursor-pointer'>Portfolio</p>
+                    <p className='text-xl font-semibold hidden lg:block cursor-pointer'>Projects</p>
                     <p className='text-xl font-semibold hidden lg:block cursor-pointer'>Contact</p>
 
                     <div className='text-3xl flex items-center'>
