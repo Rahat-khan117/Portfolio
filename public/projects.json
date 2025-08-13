@@ -2,6 +2,7 @@
   {
     "id" : 1 ,
     "name": "Health Project",
+    "s_d" : " This is one of my health project websites. Where user can find doctors and fixed appointment with them.",
     "image": "https://i.ibb.co.com/Kz85Cg9M/Project-health.png",
     "desc": "This is a platform where you can find doctors. You can fix consultation with and also include the consultation fee with date and time",
     "liveUrl": "https://health-project-drab.vercel.app/",
@@ -12,6 +13,7 @@
   {
     "id" : 2 ,
     "name": "QueryCart",
+    "s_d" : " This is a query website for any alternative products. Where user can post the defect of any product and also recommend the alternative of the product",
     "image": "https://i.ibb.co.com/tp7zMrjQ/Screenshot-2025-08-08-190816.png",
     "desc": "It is a Product Recommendation platform for recommending products . Where , Users can Add/update/Delete their own Query about a product in The System Users can view other queries for alternative products on the Websites and see the Details and other recommendations also. Users can Add recommendations also for certain products.",
     "liveUrl": "https://assignment-112-db256.web.app/",
@@ -21,7 +23,8 @@
   },
   {
     "id" : 3 ,
-    "name": "MealNest",
+    "name": "HobbyPhy",
+    "s_d" : "This is a hobby group related website.Where user can find group of people those are interested in their hobby. ",
     "image": "https://i.ibb.co.com/B2yLzcFt/Screenshot-2025-08-09-183159.png",
     "desc": "HobbyHub is a platform where people can discover and join local hobby-based groups (e.g., book clubs, hiking crews, painting circles) or create their own. It encourages social engagement through shared interests, helping people build communities around their passions.",
     "liveUrl": "https://assignment-10-273ac.web.app/",

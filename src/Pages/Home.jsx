@@ -47,7 +47,7 @@ const Home = () => {
 
     {/* for project section */}
     <div className="mt-24">
-        <Projects projects={projects}></Projects>
+        <Projects projects={projects} ></Projects>
     </div>
 
     </div>
