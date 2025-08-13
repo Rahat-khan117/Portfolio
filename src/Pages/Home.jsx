@@ -4,6 +4,7 @@ import Skills from "./Skills";
 import Projects from "./Projects";
 import { useLoaderData } from "react-router";
 import Contact from "./Contact";
+import Qualification from "./Qualification";
 
 const Home = () => {
     
@@ -50,6 +51,12 @@ const Home = () => {
     {/* for project section */}
     <div className="mt-24">
         <Projects projects={projects} ></Projects>
+    </div>
+
+    {/* Qualification */}
+
+    <div className="mt-14">
+        <Qualification></Qualification>
     </div>
 
     {/* for contact page */}
