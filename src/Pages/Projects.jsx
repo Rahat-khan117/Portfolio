@@ -42,7 +42,7 @@ const Projects = ({ projects }) => {
       </div>
 
       {modal && (
-        <div className="fixed inset-0 flex items-center justify-center bg-black/50 ">
+        <div className="fixed inset-x-0 top-[70px] bottom-0 flex   items-center justify-center bg-black/50 ">
           <div className="bg-white rounded-lg shadow-lg p-4 pb-7 md:w-[56vw] sm:w-[76vw] w-[90vw] relative z-30">
             <i
               onClick={() => setModal(false)}
